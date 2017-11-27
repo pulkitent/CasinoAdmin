@@ -1,0 +1,8 @@
+D:\material\MVC\MVC\Day1\Framework\Nagarro.EmployeePortal\Nagarro.EmployeePortal\Nagarro.EmployeePortal.Web.Shared\obj\Debug\Nagarro.EmployeePortal.Web.Shared.csprojResolveAssemblyReference.cache
+C:\Users\pulkitgupta01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal\Nagarro.EmployeePortal.Web.Shared\bin\Debug\Nagarro.EmployeePortal.Web.Shared.dll
+C:\Users\pulkitgupta01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal\Nagarro.EmployeePortal.Web.Shared\bin\Debug\Nagarro.EmployeePortal.Web.Shared.pdb
+C:\Users\pulkitgupta01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal\Nagarro.EmployeePortal.Web.Shared\bin\Debug\Casino.AdminPortal.Shared.dll
+C:\Users\pulkitgupta01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal\Nagarro.EmployeePortal.Web.Shared\bin\Debug\Casino.AdminPortal.Shared.pdb
+C:\Users\pulkitgupta01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal\Nagarro.EmployeePortal.Web.Shared\obj\Debug\Nagarro.EmployeePortal.Web.Shared.csprojResolveAssemblyReference.cache
+C:\Users\pulkitgupta01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal\Nagarro.EmployeePortal.Web.Shared\obj\Debug\Nagarro.EmployeePortal.Web.Shared.dll
+C:\Users\pulkitgupta01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal\Nagarro.EmployeePortal.Web.Shared\obj\Debug\Nagarro.EmployeePortal.Web.Shared.pdb

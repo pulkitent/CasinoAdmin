@@ -1,0 +1,35 @@
+﻿@*
+@model List<Casino.AdminPortal.Web.Models.UserViewModels>
+*@
+
+@model PagedList.IPagedList<Casino.AdminPortal.Web.Models.UserViewModels>
+@using PagedList.Mvc;
+
+
+<br />
+<br />
+<div class="card" style="width: 80rem;">
+    @using (Ajax.BeginForm("SearchUser", new AjaxOptions { UpdateTargetId = "MainElement", HttpMethod = "Post", InsertionMode = InsertionMode.Replace }))
+    {
+        <div>
+            <label>Name</label>
+            <input class="form-control" type="text" name="nameSearch" id="nameSearch" />
+            <div class="pull-right form-inline" style="margin-top:-60px">
+                <label>ContactNumber</label>
+                <input class="form-control" type="text" name="contactSearch" id="contactSearch" />
+            </div>
+
+
+        </div>
+        <br />
+        <div>
+            <label>EmailId</label>
+            <input class="form-control" type="text" name="emailSearch" id="emailSearch" />
+            <div class="pull-right form-inline" style="margin-top:-40px; margin-right:230px">
+                <button class="btn btn-primary">Search</button>
+            </div>
+        </div>
+    }
+</div>
+
+@Html.Partial("UserList",Model)

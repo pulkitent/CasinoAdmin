@@ -1,0 +1,12 @@
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Shared\bin\Debug\Casino.AdminPortal.Shared.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Shared\bin\Debug\Casino.AdminPortal.Shared.pdb
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Shared\obj\Debug\Casino.AdminPortal.Shared.dll
+C:\Users\aayushmittal01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal.Shared\obj\Debug\Casino.AdminPortal.Shared.pdb
+C:\Users\munawwarnazri\Documents\Visual Studio 2013\Casino.AdminPortal\Casino.AdminPortal.Shared\bin\Debug\Casino.AdminPortal.Shared.dll
+C:\Users\munawwarnazri\Documents\Visual Studio 2013\Casino.AdminPortal\Casino.AdminPortal.Shared\bin\Debug\Casino.AdminPortal.Shared.pdb
+C:\Users\munawwarnazri\Documents\Visual Studio 2013\Casino.AdminPortal\Casino.AdminPortal.Shared\obj\Debug\Casino.AdminPortal.Shared.dll
+C:\Users\munawwarnazri\Documents\Visual Studio 2013\Casino.AdminPortal\Casino.AdminPortal.Shared\obj\Debug\Casino.AdminPortal.Shared.pdb
+C:\Users\pulkitgupta01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal\Casino.AdminPortal.Shared\bin\Debug\Casino.AdminPortal.Shared.dll
+C:\Users\pulkitgupta01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal\Casino.AdminPortal.Shared\bin\Debug\Casino.AdminPortal.Shared.pdb
+C:\Users\pulkitgupta01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal\Casino.AdminPortal.Shared\obj\Debug\Casino.AdminPortal.Shared.dll
+C:\Users\pulkitgupta01\Documents\Visual Studio 2013\Projects\Casino.AdminPortal\Casino.AdminPortal\Casino.AdminPortal.Shared\obj\Debug\Casino.AdminPortal.Shared.pdb

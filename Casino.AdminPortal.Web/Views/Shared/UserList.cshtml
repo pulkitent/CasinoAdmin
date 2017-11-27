@@ -1,0 +1,109 @@
+﻿@*
+    @model IEnumerable<Casino.AdminPortal.Web.Models.UserViewModels>
+*@
+
+@model  PagedList.IPagedList<Casino.AdminPortal.Web.Models.UserViewModels>
+@using PagedList.Mvc
+
+
+<link rel="stylesheet" type="text/css" href="../Content/ListStyle.css">
+
+<script type="text/javascript">
+    ShowModelPopUp = function () {
+        console.log("I am inside");
+        window.showModalDialog('/User/OpenModelPopup', "WindowPopup", 'width=400px,height=400px');
+    }
+</script>
+<table class="table" id="t01">
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            DOB
+        </th>
+        <th>
+            ContactNumber
+        </th>
+        <th>
+            EmailId
+        </th>
+        <th>
+            AccountBalance
+        </th>
+        <th>
+            BlockedAmount
+        </th>
+        <th>
+            @*@Html.DisplayNameFor(model => model.PlayerId)*@
+            PlayerId
+        </th>
+        <th>
+        Recharge
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @item.DateOfBirth.ToShortDateString()
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmailId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountBalance)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BlockedAmount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PlayerId)
+            </td>
+            <td>
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#@item.PlayerId">+</button>
+
+                <div id="@item.PlayerId" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+
+                        @using (Ajax.BeginForm("AddMoney", "User", new AjaxOptions { HttpMethod = "post" }))
+                        {
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Recharge</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="hidden">
+                                        @Html.TextBoxFor(x => x.FirstOrDefault(y => y.EmailId == @item.EmailId).EmailId)
+                                    </div>
+                                    @Html.TextBoxFor(x => x.FirstOrDefault(y => y.EmailId == @item.EmailId).rechargeAmount)
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="submit" , class="btn btn-default">Add Money</button>
+
+                                </div>
+                            </div>
+
+                        }
+                    </div>
+                </div>
+            </td>
+
+        </tr>
+
+    }
+
+</table>
+
+<div class="pagination" style="margin-left: 400px">
+    Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)
+    of @Model.PageCount   @Html.PagedListPager(Model, page => Url.Action("GetAllUsers", new { page }))
+</div>
